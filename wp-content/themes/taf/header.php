@@ -23,14 +23,14 @@
 
 	<header id="masthead" class="site-header" role="banner">
 		<section class="site-branding clear">
+			<section class="search-bar">
+				<?php get_sidebar(); ?>
+			</section>
 			<section class="site-logo">
 				<img src="http://taf.leahbateman.com/wp-content/themes/taf/images/header_logo.png" alt="T@F Logo">
 			</section>
 			<section class="typographic-logo">
 				<img src="http://taf.leahbateman.com/wp-content/themes/taf/images/header_text.png" alt="T@F Typographic Logo">
-			</section>
-			<section class="search-bar">
-				<?php get_sidebar(); ?>
 			</section>
 		</section>
 		

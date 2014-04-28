@@ -17,7 +17,7 @@ get_header(); ?>
 					<h1><?php the_title(); ?></h1>
 					<h2><?php the_field('authors'); ?></h2>
 					<h3><?php the_field('directors'); ?></h3>
-					<p><?php the_field('text_for_licensing_company'); ?></p>
+					<p class="licensing"><?php the_field('text_for_licensing_company'); ?></p>
 					<div class="wide"><?php the_field('description_of_show'); ?></div>
 				</section> <!-- End of show-info -->
 
